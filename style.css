@@ -1,0 +1,52 @@
+.imgtag{
+    height: 64px;
+    width: 97px;
+}
+.edit1{
+
+    text-align: center;
+}
+.edit{
+    height: 60px;
+    padding:15px;
+    text-align: center;
+}
+.caro{
+    height:583px;
+    width:381px;
+}
+
+.box1{
+    width:450px;
+    height:200px; 
+    
+    bottom:50px !important; 
+}
+
+   
+.footercolor{
+  background-color: grey;
+}
+
+.sizecol{
+    height:330px;
+    width:250px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .box1 {
+
+            position: static !important;
+    }
+
+   
+}
+@media only screen and (max-width: 768px) { 
+    .edit1{
+
+    width:100%;
+    display:block;
+    text-align: start;
+}
+}
